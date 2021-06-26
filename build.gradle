@@ -1,0 +1,24 @@
+plugins {
+    id 'java'
+}
+
+group 'com.rayferric'
+version '1.0.0'
+
+compileJava {
+    sourceCompatibility = JavaVersion.VERSION_1_8
+}
+
+repositories {
+    jcenter()
+
+    maven {
+        url "https://jitpack.io"
+    }
+}
+
+dependencies {
+    compileOnly 'org.jetbrains:annotations:20.1.0'
+
+    implementation 'com.github.rayferric:regen:1.0.1'
+}

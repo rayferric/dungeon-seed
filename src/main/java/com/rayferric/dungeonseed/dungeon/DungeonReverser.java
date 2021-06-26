@@ -39,7 +39,7 @@ public class DungeonReverser {
                 case COBBLESTONE:
                     RandomCall call = new JavaIntegerRangeCall(4, 0);
 
-                    if (calls < 20) {
+                    if (calls < 15) {
                         calls++;
                         reverser.addCall(call);
                     }else

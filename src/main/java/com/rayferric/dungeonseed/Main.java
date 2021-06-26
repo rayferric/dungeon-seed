@@ -47,8 +47,6 @@ public class Main {
             System.out.println("\nCracking dungeon #1:");
             System.out.println(dungeon);
 
-            DungeonReverser.findDungeonSeeds(dungeon);
-
             List<ChunkSeed> seeds = DungeonReverser.findDungeonSeeds(dungeon).collect(Collectors.toList());
 
             if(seeds.size() == 0)
@@ -95,8 +93,6 @@ public class Main {
 
             System.out.println("\nCracking dungeon #2:");
             System.out.println(dungeon);
-
-            DungeonReverser.findDungeonSeeds(dungeon);
 
             List<ChunkSeed> seeds = DungeonReverser.findDungeonSeeds(dungeon).collect(Collectors.toList());
 
@@ -152,8 +148,6 @@ public class Main {
 
             System.out.println("\nCracking dungeon #3:");
             System.out.println(dungeon);
-
-            DungeonReverser.findDungeonSeeds(dungeon);
 
             List<ChunkSeed> seeds = DungeonReverser.findDungeonSeeds(dungeon).collect(Collectors.toList());
 
